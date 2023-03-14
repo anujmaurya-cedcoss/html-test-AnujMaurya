@@ -40,7 +40,7 @@ input {
 .contact__form-send {
     float: right;
     height: 30px;
-    margin-right : 15px;
+    margin-right : 5px;
     background-color : black;
     color : white;
 }
@@ -50,12 +50,14 @@ table {
     width: 100%;
     border-collapse: collapse;
 }
+
 .table, td, tr, th{
-    /* width: 800px; */
     margin : 20px 40px 20px 75px;
     border: 1px solid rgb(199, 198, 198);
 }
-
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
 tbody td:hover {
     background-color: #ddd;
 }
